@@ -20,19 +20,19 @@ class NavBar extends Component {
                         </Link>
                     </li>
                     <li class={style.navItem}>
-                        <Link class={style.navLink} activeClassName={style.active} href="/">
+                        <Link class={style.navLink} activeClassName={style.active} href="/schedule">
                             <i aria-hidden="true" class={iconClassName}>calendar_today</i>
                             Schedule
                         </Link>
                     </li>
                     <li class={style.navItem}>
-                        <Link class={style.navLink} activeClassName={style.active} href="/">
+                        <Link class={style.navLink} activeClassName={style.active} href="/speakers">
                             <i aria-hidden="true" class={iconClassName}>people</i>
                             Speakers
                         </Link>
                     </li>
                     <li class={style.navItem}>
-                        <Link class={style.navLink} activeClassName={style.active} href="/">
+                        <Link class={style.navLink} activeClassName={style.active} href="/attending">
                             <i aria-hidden="true" class={iconClassName}>directions_walk</i>
                             Attending
                         </Link>

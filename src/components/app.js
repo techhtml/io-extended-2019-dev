@@ -3,9 +3,10 @@ import { Router } from 'preact-router';
 
 import NavBar from './navbar';
 
-// Code-splitting is automated for routes
 import Home from '../routes/home';
-import Profile from '../routes/profile';
+import Schedule from '../routes/schedule';
+import Speakers from '../routes/speakers';
+import Attending from '../routes/attending';
 
 export default class App extends Component {
 	
@@ -20,8 +21,9 @@ export default class App extends Component {
 				<div class="appwrapper">
 					<Router onChange={this.handleRoute}>
 						<Home path="/" />
-						<Profile path="/profile/" user="me" />
-						<Profile path="/profile/:user" />
+						<Schedule path="/schedule" />
+						<Speakers path="/speakers" />
+						<Attending path="/attending" />
 					</Router>
 				</div>
 			</div>
