@@ -1,0 +1,49 @@
+.scheduleName {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.scheduleMeta {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.scheduleMeta > div {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.schedulePlace {
+    color: #5f6368;
+}
+
+.scheduleCategories {
+    color: #202124;
+}
+
+.scheduleOutLink {
+    
+}
+
+@media (min-width: 600px) {
+    .scheduleLink {
+        display: block;
+        padding: 32px calc((((100% - 180px) / 10) * 1) + 0px + 20px);
+    }
+    
+    .scheduleLink:hover {
+        background: #f8f9fa;
+    }
+
+    .scheduleItem + .scheduleItem {
+        border-top: 1px solid #e8eaed;
+    }
+
+    .scheduleName {
+        font-size: 18px;
+    }
+
+    .scheduleMeta {
+        font-size: 15px;
+    }
+}

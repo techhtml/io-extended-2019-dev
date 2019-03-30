@@ -97,3 +97,15 @@ h1, h2, h3, h4, h5, h6 {
     }
 
 }
+
+[class*=category].ml::before {
+    background: rgb(252, 210, 48);
+}
+
+[class*=category].android::before {
+    background: rgb(141, 160, 252);
+}
+
+[class*=category].web::before {
+    background: rgb(250, 191, 169);
+}

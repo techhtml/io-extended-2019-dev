@@ -1,0 +1,47 @@
+.scheduleContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid #e8eaed;
+    padding-top: 12px;
+    margin: 0 12px;
+}
+
+.scheduleContainer:last-of-type {
+    border-bottom: 1px solid #e8eaed;
+}
+
+.scheduleLink {
+    padding: 0 0 24px;
+}
+
+.scheduleTime {
+    font-size: 14px;
+    color: #5f6368;
+    text-align: center;
+}
+
+.scheduleTimeAmpm {
+    display: block;
+}
+
+.scheduleItemContainer {
+    grid-column: 2/5;
+}
+
+
+@media (min-width: 600px) {
+    .scheduleContainer {
+        grid-template-columns: repeat(6, 1fr);
+        padding-top: 0;
+    }
+    
+    .scheduleItemContainer {
+        grid-column: 2/7;
+    }
+    
+    .scheduleTime {
+        padding: 32px 0 0;
+        grid-column: 1;
+        border-right: 1px solid #e8eaed;
+    }
+}

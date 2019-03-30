@@ -21,7 +21,8 @@ export default class App extends Component {
 				<div class="appwrapper">
 					<Router onChange={this.handleRoute}>
 						<Home path="/" />
-						<Schedule path="/schedule" />
+						<Schedule path="/schedule" id="" />
+						<Schedule path="/schedule/:id" />
 						<Speakers path="/speakers" />
 						<Attending path="/attending" />
 					</Router>
