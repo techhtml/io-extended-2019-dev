@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700|Roboto:400,500,700');
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v29/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+    margin: 0;
+    font-family: "Roboto", "Noto Sans KR", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    word-break: keep-all;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #3c4043;
+    text-decoration: none;
+}
+
+button {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    margin: 0;
+}
+
+.io-ext-section {
+    padding: 40px 15px;
+    max-width: 720px;
+}
+
+.io-ext-banner {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.io-ext-meta {
+    font-weight: 500;
+}
+
+@media (min-width: 600px) {
+    .io-ext-section {
+        padding: 120px 60px;
+    }
+
+    .io-ext-banner {
+        font-size: 32px;
+    }
+
+    .io-ext-meta {
+        font-size: 16px;
+    }
+}
