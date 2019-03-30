@@ -75,6 +75,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
+.appwrapper {
+    padding: 15px 0;
+}
+
 @media (min-width: 600px) {
     .io-ext-section {
         padding: 120px 60px;
@@ -87,4 +91,9 @@ h1, h2, h3, h4, h5, h6 {
     .io-ext-meta {
         font-size: 16px;
     }
+
+    .appwrapper {
+        margin-left: 88px;
+    }
+
 }

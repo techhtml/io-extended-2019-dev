@@ -17,11 +17,13 @@ export default class App extends Component {
 		return (
 			<div id="app">
 				<NavBar />
-				<Router onChange={this.handleRoute}>
-					<Home path="/" />
-					<Profile path="/profile/" user="me" />
-					<Profile path="/profile/:user" />
-				</Router>
+				<div class="appwrapper">
+					<Router onChange={this.handleRoute}>
+						<Home path="/" />
+						<Profile path="/profile/" user="me" />
+						<Profile path="/profile/:user" />
+					</Router>
+				</div>
 			</div>
 		);
 	}
