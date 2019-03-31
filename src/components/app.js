@@ -12,6 +12,7 @@ import Attending from '../routes/attending';
 export default class App extends Component {
 	
 	handleRoute = e => {
+		window.scrollTo(0, 0);
 		this.currentUrl = e.url;
 	};
 

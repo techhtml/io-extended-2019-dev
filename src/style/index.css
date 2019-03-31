@@ -31,7 +31,8 @@ html, body {
     color: #333;
     word-break: keep-all;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
 }
 
 ul, li {
