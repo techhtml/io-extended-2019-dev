@@ -34,6 +34,11 @@ html, body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+/* for dev */
+body {
+    margin-bottom: 73px;
+}
+
 ul, li {
     margin: 0;
     padding: 0;

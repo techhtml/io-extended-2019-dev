@@ -13,6 +13,11 @@
     margin-right: 16px;
 }
 
+.scheduleLink {
+    display: block;
+    padding-bottom: 12px;
+}
+
 .schedulePlace {
     color: #5f6368;
 }
