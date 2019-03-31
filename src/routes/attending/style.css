@@ -1,0 +1,19 @@
+.coc {
+    padding: 40px 15px;
+    max-width: 720px;
+}
+
+.title {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.link {
+    color: #4285f4;
+}
+
+@media (min-width: 600px) {
+    .coc {
+        padding: 0 60px;
+    }
+}

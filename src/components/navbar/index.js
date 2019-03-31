@@ -34,7 +34,7 @@ class NavBar extends Component {
                     <li class={style.navItem}>
                         <Link class={style.navLink} activeClassName={style.active} href="/attending">
                             <i aria-hidden="true" class={iconClassName}>directions_walk</i>
-                            Attending
+                            Community
                         </Link>
                     </li>
                 </ul>
