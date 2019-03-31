@@ -34,6 +34,13 @@
     opacity: 0.3;
 }
 
+.backButton {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 8px;
+}
+
 @media (min-width: 600px) {
     .modalMain {
         padding: 140px 0 120px;

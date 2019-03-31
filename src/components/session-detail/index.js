@@ -20,13 +20,9 @@ class SessionDetail extends Component {
 
     render() {
         const session = this.state.session;
-        const logoClassName = classNames({
-            [style.logo]: true,
-            'io-logo': true
-        })
-        
+
         return (
-            <Modal>
+            <Modal from="schedule">
                 <div class={style.sessionDetail}>
                     <div class={style.image}></div>
                     <div class={style.content}>

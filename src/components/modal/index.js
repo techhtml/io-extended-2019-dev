@@ -18,8 +18,12 @@ class Modal extends Component {
         })
     }
 
-    closeModal() {
+    onClickBack() {
         history.back();
+    }
+
+    closeModal() {
+        route(this.props.from);
     }
 
     render(props) {
@@ -27,11 +31,18 @@ class Modal extends Component {
             return null;
         }
 
+        let backButton = null;
+
+        if(this.props.history) {
+            backButton = <button type="button" class={style.backButton} onClick={this.onClickBack}><i aria-hidden="true" class="material-icons">arrow_back</i></button> 
+        }
+
         return (
             <div class={style.modal}>
                 <div class={style.modalMain}>
                     <div class={style.modalBody}>
                         { props.children }
+                        { backButton }
                     </div>
                 </div>
                 <div class={style.modalDimd} onClick={this.closeModal}></div>
