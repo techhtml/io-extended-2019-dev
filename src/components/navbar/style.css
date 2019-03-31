@@ -3,9 +3,10 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: #1a73e8;
+    background: #fff;
     display: flex;
     z-index: 150;
+    box-shadow: 0 2px 13px rgba(0, 0, 0, 0.08);
 }
 
 .nav {
@@ -19,11 +20,14 @@
 
 .navLink {
     display: block;
-    color: #fff;
     text-align: center;
     font-size: 12px;
     font-weight: 500;
     padding: 12px 18px;
+}
+
+.navLink:hover {
+    color: #4285f4;
 }
 
 .icon {
@@ -32,8 +36,9 @@
 }
 
 .active {
-    
+    color: #4285f4;
 }
+
 @media (min-width: 600px) {
     .navbar {
         left: 0;
