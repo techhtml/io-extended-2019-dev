@@ -34,11 +34,6 @@ html, body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-/* for dev */
-body {
-    margin-bottom: 73px;
-}
-
 ul, li {
     margin: 0;
     padding: 0;
@@ -61,7 +56,7 @@ button {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 500;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -122,3 +117,31 @@ h1, h2, h3, h4, h5, h6 {
 .io-logo .st4{fill:#D3E3F9;}
 .io-logo .st5{fill:#4285F4;}
 .io-logo .st6{fill:#5BB974;}
+
+.io-share {width: 400px;}
+.io-share .st0{fill:#4285F4;}
+.io-share .st1{fill:#D2E3FC;}
+.io-share .st2{fill:#FDEDC5;}
+.io-share .st3{fill:#AECBF7;}
+.io-share .st4{fill:#CEEAD6;}
+.io-share .st5{fill:#FAD2CF;}
+.io-share .st6{fill:#E5443F;}
+.io-share .st7{fill:#34A853;}
+.io-share .st8{fill:#5F6368;}
+
+.facebook {width: 36px}
+.facebook .cls-1{fill:#5F6368;transition:.2s all ease-in-out}
+.facebook .cls-2{fill:#fff;}
+
+.facebook:hover .cls-1 {fill:#4267b2;}
+
+.slack {width: 36px;}
+.slack .scale-2 {transform:scale(2) translate(-25%, -25%)}
+.slack .st0{fill:#5F6368;transition:.2s all ease-in-out}
+.slack .st1{fill:#5F6368;transition:.2s all ease-in-out}
+.slack .st2{fill:#5F6368;transition:.2s all ease-in-out}
+.slack .st3{fill:#5F6368;transition:.2s all ease-in-out}
+.slack:hover .st1{fill:#36C5F0;}
+.slack:hover .st0{fill:#E01E5A;}
+.slack:hover .st2{fill:#2EB67D;}
+.slack:hover .st3{fill:#ECB22E;}

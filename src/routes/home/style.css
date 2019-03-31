@@ -4,3 +4,35 @@
     background-size: cover;
     margin: 0;
 }
+
+.partnerSection {
+    padding: 30px 15px;
+}
+
+.partnerTitle {
+    font-size: 36px;
+}
+
+.partnerGroup + .partnerGroup {
+    margin-top: 48px;
+}
+
+.partnerList {
+    margin-top: 18px;
+}
+
+.partnerItem {
+    display: inline-block;
+    width: 140px;
+}
+
+.partnerLogo {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 600px) {
+    .partnerSection {
+        padding: 30px 60px;
+    }
+}

@@ -2,6 +2,7 @@ import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 
 import NavBar from './navbar';
+import Footer from './footer';
 
 import Home from '../routes/home';
 import Schedule from '../routes/schedule';
@@ -28,6 +29,7 @@ export default class App extends Component {
 						<Attending path="/attending" />
 					</Router>
 				</div>
+				<Footer />
 			</div>
 		);
 	}
