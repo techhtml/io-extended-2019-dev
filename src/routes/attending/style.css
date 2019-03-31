@@ -8,6 +8,10 @@
     line-height: 28px;
 }
 
+.title ~ .title {
+    margin-top: 45px;
+}
+
 .link {
     color: #4285f4;
 }
