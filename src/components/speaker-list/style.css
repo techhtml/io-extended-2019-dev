@@ -1,0 +1,70 @@
+.list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 720px) {
+    .list {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1440px) {
+    .list {
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 100%;
+    }
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    background: white;
+    text-align: left;
+    height: 320px;
+    margin: 20px;
+    box-shadow: 0 2px 14px rgba(0,0,0,.08)
+}
+
+.body {
+    display: block;
+    position: relative;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.thumb {
+    position: relative;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background-color: #ebebeb;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.thumbImg {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.company {
+    font-size: 16px;
+    line-height: 22px;
+}
