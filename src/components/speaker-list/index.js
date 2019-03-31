@@ -1,5 +1,6 @@
 import { h, render, Component } from 'preact';
 import { SPEAKER_LIST } from '../../datas/speakers';
+import { Link } from 'preact-router/match';
 import style from './style';
 
 class SpeakerList extends Component {
@@ -8,7 +9,7 @@ class SpeakerList extends Component {
             <div class={style.list}>
                 {SPEAKER_LIST.map((speaker) => (
                     <div class={style.card}>
-                        <a class={style.body}>
+                        <Link class={style.body} href={'/speakers/' + speaker.id}>
                             <div class={style.thumb}>
                                 <img class={style.thumbImg} src={speaker.photo} alt="" />
                             </div>
@@ -23,7 +24,7 @@ class SpeakerList extends Component {
                                     {speaker.shortDesc}
                                 </p>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 ))}
             </div>

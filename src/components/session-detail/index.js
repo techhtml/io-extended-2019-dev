@@ -2,7 +2,6 @@ import { h, render, Component } from 'preact';
 import style from './style';
 import { Link } from 'preact-router/match';
 import { SESSION_LIST } from '../../datas/sessions';
-import classNames from 'classnames';
 import Category from '../category';
 import Modal from '../modal';
 
@@ -22,7 +21,7 @@ class SessionDetail extends Component {
         const session = this.state.session;
 
         return (
-            <Modal from="schedule">
+            <Modal from="/schedule">
                 <div class={style.sessionDetail}>
                     <div class={style.image}></div>
                     <div class={style.content}>
@@ -36,9 +35,6 @@ class SessionDetail extends Component {
                                     {session.place}
                                 </div>
                             </div>
-                            <Link href="/schedule" class={style.close}>
-                                <i aria-hidden="true" class="material-icons">close</i>
-                            </Link>
                         </header>
                         <div class="session-detail-body">
                             <p class="session-detail-description">

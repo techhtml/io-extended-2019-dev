@@ -18,17 +18,44 @@
     padding: 32px 20px 72px;
 }
 
-.sessionTitle {
+.thumb {
+    width: 96px;
+    height: 96px;
+    margin-right: 16px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.thumbImg {
+    width: 100%;
+
+}
+
+.info {
+    margin-top: 24px;
+}
+
+.title {
     font-size: 20px;
     line-height: 28px;
     font-weight: 400;
-    margin-bottom: 16px;
 }
 
-.sessionMeta {
+.meta {
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
+}
+
+.link {
+    color: #1a73e8;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px;
 }
 
 .description {
@@ -44,11 +71,14 @@
         margin-top: 160px;
         padding: 56px 100px 60px;
     }
-    
-    .sessionTitle {
+
+    .close {
+        padding: 16px;
+    }
+
+    .title {
         font-size: 28px;
         line-height: 36px;
         font-weight: 400;
-        margin-bottom: 24px;
     }
 }

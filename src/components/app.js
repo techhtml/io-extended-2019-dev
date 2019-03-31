@@ -23,7 +23,8 @@ export default class App extends Component {
 						<Home path="/" />
 						<Schedule path="/schedule" id="" />
 						<Schedule path="/schedule/:id" />
-						<Speakers path="/speakers" />
+						<Speakers path="/speakers" id="" />
+						<Speakers path="/speakers/:id" />
 						<Attending path="/attending" />
 					</Router>
 				</div>

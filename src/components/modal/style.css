@@ -41,6 +41,13 @@
     padding: 8px;
 }
 
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px;
+}
+
 @media (min-width: 600px) {
     .modalMain {
         padding: 140px 0 120px;
@@ -53,5 +60,13 @@
         max-width: 800px;
         min-height: 400px;
         width: 90%;
+    }
+
+    .backButton {
+        padding: 16px;
+    }
+
+    .close {
+        padding: 16px;
     }
 }
