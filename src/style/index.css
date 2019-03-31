@@ -26,7 +26,7 @@
 html, body {
     margin: 0;
     font-family: "Roboto", "Noto Sans KR", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
     color: #333;
     word-break: keep-all;
@@ -109,3 +109,11 @@ h1, h2, h3, h4, h5, h6 {
 [class*=category].web::before {
     background: rgb(250, 191, 169);
 }
+
+.io-logo .st0{fill:#5F6368;}
+.io-logo .st1{font-family:'Roboto';}
+.io-logo .st2{font-size:51.6999px;}
+.io-logo .st3{font-size:19.2028px;}
+.io-logo .st4{fill:#D3E3F9;}
+.io-logo .st5{fill:#4285F4;}
+.io-logo .st6{fill:#5BB974;}
